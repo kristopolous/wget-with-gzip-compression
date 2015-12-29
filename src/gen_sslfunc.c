@@ -175,7 +175,7 @@ init_ssl (SSL_CTX **ctx)
 	meth = SSLv23_client_method ();
 	break;
       case 1 :
-	meth = SSLv2_client_method ();
+  //meth = SSLv2_client_method ();
 	break;
       case 2 :
 	meth = SSLv3_client_method ();
